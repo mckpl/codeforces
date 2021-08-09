@@ -2,6 +2,9 @@
 
 int main()
 {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int M{}; // number of lines
     int N{}; // number of columns
     std::cin >> M >> N;
