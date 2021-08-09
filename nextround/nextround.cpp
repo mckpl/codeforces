@@ -19,8 +19,8 @@ int main()
         std::cin >> scores[i];
     }
     
-    int countOfContestansA {};
-    int kValue{scores[k-1]};
+    int countOfContestansA {}; // contestant to next round
+    int kValue{scores[k-1]}; // score of k-contestant
     for (int i {0}; i < n; ++i)
     {
         if (scores[i] > 0 && scores[i] >= kValue)
